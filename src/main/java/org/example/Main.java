@@ -8,13 +8,13 @@ public class Main {
             }
 
             if (i % 3 == 0 && i % 5 == 0) {
-                System.out.print("FooBar ");
+                System.out.print("FooBar, ");
             } else if (i % 3 == 0) {
-                System.out.print("Foo ");
+                System.out.print("Foo, ");
             } else if (i % 5 == 0) {
-                System.out.print("Bar ");
+                System.out.print("Bar, ");
             } else {
-                System.out.print(i + " ");
+                System.out.print(i + ", ");
             }
         }
     }
